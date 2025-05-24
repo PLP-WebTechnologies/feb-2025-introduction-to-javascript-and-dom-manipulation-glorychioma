@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.topnav{
+    background-color: #333;
+    overflow: auto;
+    display: flex;
+    flex: 1;
+}
+
+a{
+    text-decoration: none;
+    padding: 14px 16px;
+    color: #f2f2f2;;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+
+}
+
+.topnav a:hover{
+    background-color: #ddd;
+    color: #000;
+}
+
+.topnav a.active{
+    background-color: #04aa6d;
+    color: #ffffff;
+
+}
+
+.topnav a.active:hover{
+    color: #04aa6d;
+    background-color: #ffffff;
+
+}
+
+/* .container{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+} */
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 300px;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    margin:15px;
+    box-shadow: 0px 2px 4px grey;
+}
+
+  .card-container img{
+    width: 300px;
+    height: 300px;
+    opacity: 0.8;
+}
+
+.card-content{
+    padding: 15px;
+}
+.card-content h3{
+    font-size: 25px;
+    margin-bottom: 6px;
+}
+
+.card-content p{
+    font-size: 15px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.card-content .btn{
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #333;
+    display: inline-block;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: #ffffff;
+}
+
+.card-content .btn:hover{
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    /* border: 1px solid brown; */
+    gap: 15px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.grid-card{
+    padding: 10px;
+    text-align: center;
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 5px;
+}
+
+h1{
+    font-family: roboto mono sans-serif;
+    color: tomato;
+    padding-left: 30px;
+}
+
+h2{
+    padding: 20px;
+    border: 2px solid transparent;
+    margin: 20px;
+}
+
+h2:hover{
+    padding: 20px;
+    border: 2px plum solid;
+    border-radius: 20px;
+    color: maroon;
+}
+
+.pad{
+    padding-left: 15px;
+}
+
+.violet{
+    color: violet;
+}
+
+.maroon{
+    color: maroon;
+}
+
+
+
+#home{
+    background-color: #d1b5a6;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    margin: 0px 10px;
+}
+
+#hobbies{
+    background-color: #b995a1;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    margin: 0px 10px;
+}
+
+#design{
+    background-color: #4fb9af;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    margin: 0px 10px;
+}
+
+.click-container{
+    display: flex;
+    justify-content: center;
+}
+.click-btn{
+    margin-bottom: 20px;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #b5927f;
+    border-radius: 5px;
+    border: #d1b5a6 solid 1px;
+    width: 20em;
+    height: 5em;
+}
+.click-btn:hover{
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+.box{
+    margin: 15px auto;
+    flex: none;
+    width: 25em;
+    height: 25em;
+    border-radius: 5px;
+    background-color: peru;
+    
+}
+.peru{
+    text-align: center;
+    color: #333;
+    padding-top: 50%;
+    opacity: 0.5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#contact{
+    background-color: #5e9b8a;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    margin: 0px 10px 2px}
